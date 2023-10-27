@@ -1,7 +1,7 @@
 import './App.css';
 import { useEffect, useState} from "react";
 import db from './firebase';
-import { doc, collection, getDocs, onSnapshot } from "firebase/firestore"
+import { collection, getDocs, onSnapshot } from "firebase/firestore"
 
 function App() {
   const [posts, setPosts] = useState([]);
